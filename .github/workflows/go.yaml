@@ -41,4 +41,4 @@ jobs:
       - name: Test
         run: go test -v $(find . -iname "*_test.go" | xargs -I {} dirname {} | uniq | grep -v "./tests") -race -count=1
         env:
-          TEST_MODE: true\n
+          TEST_MODE: true
