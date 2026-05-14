@@ -13,4 +13,4 @@ jobs:
     steps:
       - run: curl -X POST "${{ env.WEBSITE_CLOUDFLARE_DEPLOY_HOOK }}" -v
         env:
-          WEBSITE_CLOUDFLARE_DEPLOY_HOOK: ${{ secrets.WEBSITE_CLOUDFLARE_DEPLOY_HOOK }}
+          WEBSITE_CLOUDFLARE_DEPLOY_HOOK: ${{ secrets.WEBSITE_CLOUDFLARE_DEPLOY_HOOK }}\n
