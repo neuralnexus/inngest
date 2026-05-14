@@ -25,4 +25,4 @@ jobs:
         working-directory: ui/apps/dev-server-ui
       - name: Type check
         run: pnpm type-check
-        working-directory: ui/apps/dev-server-ui\n
+        working-directory: ui/apps/dev-server-ui
