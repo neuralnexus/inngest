@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.AUTOMATED_UPSTREAM_TOKEN }}
           repository: inngest/monorepo
-          event-type: upstream-inngest\n
+          event-type: upstream-inngest
