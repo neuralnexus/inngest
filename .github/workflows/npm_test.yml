@@ -51,4 +51,4 @@ jobs:
         run: npm install --foreground-scripts
         env:
           DEBUG: "inngest:*"
-      - run: bin/inngest version\n
+      - run: bin/inngest version
